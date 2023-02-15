@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         button1.setOnClickListener(view -> openActivity_1());
         button2.setOnClickListener(view -> openActivity_2());
         button3.setOnClickListener(view -> openActivity_3());
-        button3.setOnClickListener(view -> openExercise_1());
+        button4.setOnClickListener(view -> openExercise_1());
     }
     public void openHelloWorldMenu(){
         Intent intent = new Intent(this, HelloworldMenu.class);
