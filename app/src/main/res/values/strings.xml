@@ -1,8 +1,9 @@
 <resources>
     <string name="app_name">GEAGONIAMobileApp</string>
-    <string name="Hello_world">Hello World</string>
-    <string name="Act_1">Activity1</string>
-    <string name="Act_2">Activity2</string>
-    <string name="Act_3">Activity3</string>
+    <string name="Hello_world">Hello World!</string>
+    <string name="Ex_1">Exercise 1</string>
+    <string name="Act_1">Activity 1</string>
+    <string name="Act_2">Activity 2</string>
+    <string name="Act_3">Activity 3</string>
     <string name="Menu">Main Menu</string>
 </resources>
