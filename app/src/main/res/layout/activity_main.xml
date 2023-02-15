@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:scaleX="2"
@@ -27,8 +28,12 @@
         android:scaleX="2"
         android:scaleY="2"
         android:text="@string/Act_2"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        android:backgroundTint="@color/caramel"
         app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SmallSp" />
 
     <Button
         android:id="@+id/button"
@@ -39,8 +44,12 @@
         android:scaleX="2"
         android:scaleY="2"
         android:text="@string/Act_3"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        android:backgroundTint="@color/caramel"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SmallSp" />
 
     <Button
         android:id="@+id/button5"
@@ -51,8 +60,12 @@
         android:scaleX="2"
         android:scaleY="2"
         android:text="@string/Act_1"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        android:backgroundTint="@color/caramel"
         app:layout_constraintBottom_toTopOf="@+id/button4"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SmallSP" />
 
     <Button
         android:id="@+id/button6"
@@ -60,10 +73,14 @@
         android:layout_height="44dp"
         android:layout_marginStart="136dp"
         android:layout_marginBottom="60dp"
+        android:backgroundTint="@color/caramel"
         android:scaleX="2"
         android:scaleY="2"
         android:text="@string/Hello_world"
+        android:textAlignment="center"
+        android:textSize="10sp"
         app:layout_constraintBottom_toTopOf="@+id/button5"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SmallSp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
